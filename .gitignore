@@ -1,0 +1,14 @@
+# Local environment secrets; keep the documented template trackable.
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated build/test output.
+node_modules/
+dist/
+coverage/
+
+# Logs and operating-system metadata.
+*.log
+.DS_Store
+Thumbs.db
